@@ -6,9 +6,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    
   </head>
 
   <body>
+   
     <!-- <audio autoplay="autopaly">
       <source src="renxi.mp3" type="audio/mp3" />
     </audio> -->
@@ -32,16 +34,19 @@
     <script src="js/main.js"></script>
     <script src="js/particle.js"></script>
     <script src="js/universe.js"></script>
-    <audio id="myAudio" controls autoplay>
+   
+   
+
+
+
+    <audio id="myAudio">
       <source src="./NgoCham-BigDaddyEmily-10326553.mp3" type="audio/mpeg">
     </audio>
-    
     <script>
-      window.onload = function() {
+      window.addEventListener("click", function() {
         var audio = document.getElementById("myAudio");
-        audio.play();
-      };
+        audio.play(); // Bắt đầu phát âm thanh khi trang web đã tải xong
+      });
     </script>
-    
   </body>
 </html>
